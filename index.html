@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasneem Challawala | Co-Curricular &amp; Leadership Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              900: '#0f172a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-100 selection:text-brand-900">
+
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#top" class="font-serif text-xl font-bold text-slate-900 tracking-tight">
+        Tasneem Challawala
+      </a>
+
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-brand-600 transition">About</a>
+        <a href="#mun-debates" class="hover:text-brand-600 transition">MUN &amp; Debates</a>
+        <a href="#ngo-startups" class="hover:text-brand-600 transition">NGO &amp; Startups</a>
+        <a href="#highlights" class="hover:text-brand-600 transition">Highlights</a>
+        <a href="#contact" class="px-4 py-2 rounded-lg bg-slate-900 text-white hover:bg-brand-600 transition">Contact</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-btn" aria-label="Toggle Menu" class="md:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 bg-white px-4 py-4 space-y-3 text-sm font-medium">
+      <a href="#about" class="block text-slate-700 hover:text-brand-600">About</a>
+      <a href="#mun-debates" class="block text-slate-700 hover:text-brand-600">MUN &amp; Debates</a>
+      <a href="#ngo-startups" class="block text-slate-700 hover:text-brand-600">NGO &amp; Startups</a>
+      <a href="#highlights" class="block text-slate-700 hover:text-brand-600">Highlights</a>
+      <a href="#contact" class="block text-brand-600 font-semibold">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="top" class="bg-white border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-16 md:py-24 grid md:grid-cols-12 gap-10 items-center">
+      <div class="md:col-span-8 space-y-5">
+        <span class="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand-700 bg-brand-50 rounded-full">
+          Grade 12 Humanities &bull; Co-Curricular Portfolio
+        </span>
+        <h1 class="font-serif text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
+          Global Policy, Persuasive Debate &amp; Purpose-Driven Enterprise.
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
+          Tasneem Challawala is a Grade 12 Humanities student active across Model United Nations conferences, competitive debates, NGO volunteering, and youth business competitions, with strong interest in International Relations.
+        </p>
+        <div class="pt-2 flex flex-wrap gap-3">
+          <a href="#mun-debates" class="px-5 py-2.5 rounded-lg bg-brand-600 text-white text-sm font-semibold hover:bg-brand-700 transition">
+            View Achievements
+          </a>
+          <a href="resume.pdf" target="_blank" class="px-5 py-2.5 rounded-lg border border-slate-300 bg-white text-slate-800 text-sm font-semibold hover:bg-slate-50 transition">
+            Download Resume (PDF)
+          </a>
+        </div>
+      </div>
+
+      <!-- Profile Photo -->
+      <div class="md:col-span-4 flex justify-center">
+        <div class="w-56 h-56 sm:w-64 sm:h-64 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 shadow-sm">
+          <img src="photo.jpg" alt="Tasneem Challawala" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Quick Stats -->
+  <section id="about" class="max-w-5xl mx-auto px-4 sm:px-6 py-14">
+    <div class="grid md:grid-cols-3 gap-8 items-start">
+      <div class="md:col-span-2 space-y-4">
+        <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slate-900">About Tasneem</h2>
+        <p class="text-slate-600 leading-relaxed">
+          From representing delegates in Model United Nations committees to arguing motions across inter-institutional debate circuits, her co-curricular work reflects curiosity about diplomacy, public policy, and structured reasoning.
+        </p>
+        <p class="text-slate-600 leading-relaxed">
+          Alongside debating and MUNs, she contributes to NGO community initiatives and tests practical ideas in business and startup competitions such as BBA Bazigar.
+        </p>
+      </div>
+
+      <!-- Summary Highlights -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 space-y-4 shadow-sm">
+        <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-400">Focus Areas</h3>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <p class="text-lg font-bold text-slate-900">MUNs</p>
+            <p class="text-xs text-slate-500">Diplomacy &amp; Policy</p>
+          </div>
+          <div>
+            <p class="text-lg font-bold text-slate-900">Debates</p>
+            <p class="text-xs text-slate-500">Public Speaking</p>
+          </div>
+          <div>
+            <p class="text-lg font-bold text-slate-900">NGO Work</p>
+            <p class="text-xs text-slate-500">Community Action</p>
+          </div>
+          <div>
+            <p class="text-lg font-bold text-slate-900">Startups</p>
+            <p class="text-xs text-slate-500">Business Strategy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillar 1 & 2: MUNs & Debates -->
+  <section id="mun-debates" class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
+    <div class="mb-8">
+      <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slate-900">Model United Nations &amp; Debates</h2>
+      <p class="text-sm text-slate-500 mt-1">Research, negotiation, and structured argumentation across forums.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- MUN Card -->
+      <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:border-brand-600/40 transition">
+        <div class="flex items-center justify-between text-xs font-medium text-brand-700 mb-2">
+          <span>Model United Nations</span>
+          <span class="text-slate-400">Co-Curricular</span>
+        </div>
+        <h3 class="text-lg font-bold text-slate-900">MUN Delegate &amp; Committee Participant</h3>
+        <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+          Participated in multiple Model United Nations conferences—preparing country research, drafting policy positions, collaborating on resolutions, and engaging in committee debates.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center gap-2 text-xs">
+          <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700">Policy &amp; Diplomacy</span>
+          <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700">Resolution Drafting</span>
+          <a href="YOUR_CERTIFICATES_DRIVE_LINK" target="_blank" class="ml-auto font-semibold text-brand-600 hover:underline">View Certificates &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Debates Card -->
+      <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:border-brand-600/40 transition">
+        <div class="flex items-center justify-between text-xs font-medium text-brand-700 mb-2">
+          <span>Competitive Debates</span>
+          <span class="text-slate-400">Mumbai &bull; Anand &bull; Ahmedabad</span>
+        </div>
+        <h3 class="text-lg font-bold text-slate-900">Debate Competitions (ITI Mumbai, Anand &amp; Nirma)</h3>
+        <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+          Represented in debate events across institutions including ITI Mumbai, Anand, and Nirma University—building clear opening arguments, strong rebuttals, and composure under pressure.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center gap-2 text-xs">
+          <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700">Argumentation</span>
+          <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-700">Rebuttals</span>
+          <a href="YOUR_CERTIFICATES_DRIVE_LINK" target="_blank" class="ml-auto font-semibold text-brand-600 hover:underline">View Proofs &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Pillar 3 & 4: NGO Work & Business/Startup Competitions -->
+  <section id="ngo-startups" class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
+    <div class="mb-8">
+      <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slate-900">NGO Work &amp; Business Competitions</h2>
+      <p class="text-sm text-slate-500 mt-1">Social responsibility paired with business and startup problem-solving.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- NGO Card -->
+      <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:border-brand-600/40 transition">
+        <div class="flex items-center justify-between text-xs font-medium text-emerald-700 mb-2">
+          <span>NGO &amp; Social Work</span>
+          <span class="text-slate-400">Community Service</span>
+        </div>
+        <h3 class="text-lg font-bold text-slate-900">NGO Volunteering &amp; Social Initiatives</h3>
+        <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+          Worked with NGO initiatives to support community outreach, awareness efforts, and collaborative social activities—gaining hands-on perspective on ground-level challenges.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center gap-2 text-xs">
+          <span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-800">Social Impact</span>
+          <span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-800">Teamwork</span>
+          <a href="YOUR_CERTIFICATES_DRIVE_LINK" target="_blank" class="ml-auto font-semibold text-emerald-700 hover:underline">NGO Details &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Business Competition Card -->
+      <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:border-brand-600/40 transition">
+        <div class="flex items-center justify-between text-xs font-medium text-amber-700 mb-2">
+          <span>Business &amp; Startup Competitions</span>
+          <span class="text-slate-400">Entrepreneurship</span>
+        </div>
+        <h3 class="text-lg font-bold text-slate-900">BBA Bazigar &amp; Business Pitch Challenges</h3>
+        <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+          Participated in business and startup-focused competitions including <strong>BBA Bazigar</strong>—working on problem identification, business ideas, pitch presentation, and practical decision-making.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center gap-2 text-xs">
+          <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-800">Pitching</span>
+          <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-800">Business Ideas</span>
+          <a href="YOUR_CERTIFICATES_DRIVE_LINK" target="_blank" class="ml-auto font-semibold text-amber-700 hover:underline">Competition Notes &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Structured Achievements Table -->
+  <section id="highlights" class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <div class="mb-6">
+      <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slate-900">Achievement Highlights</h2>
+      <p class="text-sm text-slate-500 mt-1">Jab bhi zaroorat ho, yahan exact award ya certificate detail add kar sakte hain.</p>
+    </div>
+
+    <div class="overflow-x-auto bg-white rounded-2xl border border-slate-200 shadow-sm">
+      <table class="w-full text-left border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-slate-200 bg-slate-50 text-slate-600 uppercase text-xs tracking-wider">
+            <th class="py-3.5 px-5 font-semibold">Category</th>
+            <th class="py-3.5 px-5 font-semibold">Event / Platform</th>
+            <th class="py-3.5 px-5 font-semibold">Role &amp; Highlights</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 text-slate-700">
+          <tr>
+            <td class="py-4 px-5"><span class="px-2 py-0.5 rounded bg-brand-50 text-brand-700 text-xs font-medium">MUN</span></td>
+            <td class="py-4 px-5 font-medium text-slate-900">Model United Nations Conferences</td>
+            <td class="py-4 px-5">Delegate &bull; Committee participation, research &amp; diplomacy</td>
+          </tr>
+          <tr>
+            <td class="py-4 px-5"><span class="px-2 py-0.5 rounded bg-brand-50 text-brand-700 text-xs font-medium">Debate</span></td>
+            <td class="py-4 px-5 font-medium text-slate-900">ITI Mumbai Debate</td>
+            <td class="py-4 px-5">Debater &bull; Competitive speaking &amp; structured arguments</td>
+          </tr>
+          <tr>
+            <td class="py-4 px-5"><span class="px-2 py-0.5 rounded bg-brand-50 text-brand-700 text-xs font-medium">Debate</span></td>
+            <td class="py-4 px-5 font-medium text-slate-900">Anand Debate Event</td>
+            <td class="py-4 px-5">Participant / Speaker &bull; Inter-event debate experience</td>
+          </tr>
+          <tr>
+            <td class="py-4 px-5"><span class="px-2 py-0.5 rounded bg-brand-50 text-brand-700 text-xs font-medium">Debate</span></td>
+            <td class="py-4 px-5 font-medium text-slate-900">Nirma University Debate</td>
+            <td class="py-4 px-5">Participant / Speaker &bull; University-level debate exposure</td>
+          </tr>
+          <tr>
+            <td class="py-4 px-5"><span class="px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 text-xs font-medium">NGO</span></td>
+            <td class="py-4 px-5 font-medium text-slate-900">NGO &amp; Community Volunteering</td>
+            <td class="py-4 px-5">Volunteer &bull; Social outreach &amp; community support</td>
+          </tr>
+          <tr>
+            <td class="py-4 px-5"><span class="px-2 py-0.5 rounded bg-amber-50 text-amber-800 text-xs font-medium">Business</span></td>
+            <td class="py-4 px-5 font-medium text-slate-900">BBA Bazigar Business Competition</td>
+            <td class="py-4 px-5">Participant &bull; Business &amp; startup competition experience</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Contact Footer -->
+  <footer id="contact" class="bg-slate-900 text-slate-300 mt-10">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-14 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="space-y-2">
+        <h2 class="font-serif text-2xl font-bold text-white">Contact &amp; Inquiries</h2>
+        <p class="text-sm text-slate-400 max-w-md">
+          Academic, MUN/debate, NGO, or competition-related inquiries ke liye email ke zariye sampark karein.
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="mailto:YOUR_EMAIL@example.com" class="px-5 py-2.5 rounded-lg bg-brand-600 text-white text-sm font-semibold hover:bg-brand-700 transition">
+          Send Email
+        </a>
+        <a href="resume.pdf" target="_blank" class="px-5 py-2.5 rounded-lg border border-slate-700 text-slate-200 text-sm font-semibold hover:bg-slate-800 transition">
+          Open Resume
+        </a>
+      </div>
+    </div>
+    <div class="border-t border-slate-800 py-5 text-center text-xs text-slate-500">
+      &copy; 2026 Tasneem Challawala. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Minimal JS for Mobile Navigation -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
